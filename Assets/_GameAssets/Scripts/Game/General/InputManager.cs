@@ -20,6 +20,6 @@ public class InputManager : MonoBehaviour
     }
     private Vector2 GetMoveDirection()
     {
-        return new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+        return new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")).normalized;
     }
 }
