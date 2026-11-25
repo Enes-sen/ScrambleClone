@@ -5,8 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "PlayerFieldsSO", menuName = "SO/PlayerFieldsSO")]
 public class PlayerFieldsSO : ScriptableObject
 {
-
     #region Settings
+    // Serialized Fields
     [Header("Player Base Fields")]
     [SerializeField] private int _speed;
     [SerializeField] private int _maxHealth;
