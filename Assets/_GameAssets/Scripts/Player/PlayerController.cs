@@ -10,12 +10,14 @@ public class PlayerController : MonoBehaviour,IMoveable
    
     void Start()
     {
+        // Get the Rigidbody2D component attached to the player
         _rb2D = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        // Calculate the movement direction based on input
         var dir = transform.right * InputManager.Instance.MoveDirection.x + transform.up * InputManager.Instance.MoveDirection.y;
         if(InputManager.Instance.MoveDirection != Vector2.zero)
         {
@@ -28,6 +30,7 @@ public class PlayerController : MonoBehaviour,IMoveable
     }
      public void Move( Vector2 mDir)
     {
+        // Move the player using Rigidbody2D.MovePosition for smooth movement
         _rb2D.MovePosition(_rb2D.position + mDir * _playerFields.Speed * Time.fixedDeltaTime);
     }
 }
