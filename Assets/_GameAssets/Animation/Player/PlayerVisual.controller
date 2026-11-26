@@ -9,7 +9,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsExplode
+    m_ConditionEvent: Died
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6407927263460565718}
@@ -34,8 +34,8 @@ AnimatorController:
   m_Name: PlayerVisual
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: IsExplode
-    m_Type: 4
+  - m_Name: Died
+    m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -93,7 +93,7 @@ AnimatorStateMachine:
     m_Position: {x: 280, y: 170, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6407927263460565718}
-    m_Position: {x: 235, y: 65, z: 0}
+    m_Position: {x: 240, y: 60, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -3629751592150815000}

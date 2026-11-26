@@ -2,17 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MysteryTarget : MonoBehaviour
+public class MysteryTarget : MonoBehaviour,IDestroyable
 {
-    // Start is called before the first frame update
-    void Start()
+    [Header("Target Fields")]
+    [SerializeField] private TargetFieldsSO _targetFieldsSO;
+    public void Destroy()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        //throw new System.NotImplementedException();
     }
 }
