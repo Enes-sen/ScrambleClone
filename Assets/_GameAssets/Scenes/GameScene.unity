@@ -130,21 +130,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 522759137198477604, guid: 055605a9123b38144acadc1dddb70a98, type: 3}
-      propertyPath: m_LinearDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 522759137198477604, guid: 055605a9123b38144acadc1dddb70a98, type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4225551673094143080, guid: 055605a9123b38144acadc1dddb70a98, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4788723736450216762, guid: 055605a9123b38144acadc1dddb70a98, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 4788723736450216762, guid: 055605a9123b38144acadc1dddb70a98, type: 3}
       propertyPath: m_LocalPosition.y
@@ -184,11 +176,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6137639899320233476, guid: 055605a9123b38144acadc1dddb70a98, type: 3}
       propertyPath: _objectBuffer.x
-      value: 2
+      value: 0.082
       objectReference: {fileID: 0}
     - target: {fileID: 6137639899320233476, guid: 055605a9123b38144acadc1dddb70a98, type: 3}
       propertyPath: _objectBuffer.y
-      value: 2
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -326,7 +318,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.98, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

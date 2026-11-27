@@ -61,6 +61,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88358bd5684bda448882afd72d7636c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _screenBounds: {x: 0, y: 0}
   _objectBuffer: {x: 0.5, y: 0.5}
 --- !u!50 &522759137198477604
 Rigidbody2D:
@@ -75,8 +76,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0.1
-  m_AngularDrag: 0.1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
